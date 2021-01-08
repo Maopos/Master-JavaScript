@@ -15,7 +15,7 @@ var busqueda = peliculas.find(pelicula => pelicula == 'Avengers');//Busqueda en 
     console.log(busqueda);
 
 
-var busqueda = peliculas.findIndex(pelicula => pelicula == 'Avengers');//Busqueda en un array evuelve la posicion
+var busqueda = peliculas.findIndex(pelicula => pelicula == 'Avengers');//Busqueda en un array devuelve la posicion
     console.log(busqueda);
 
 //------------------------------------------------
