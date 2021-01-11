@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ejercicio Document Object Model, Funciones y Eventos.</h1>
+        <h2>Llenar formulario y mostrar los datos en pantalla.</h2>
+
+        <div class="box">
+            <form action="#" id="formulario">
+                <label for="lb_nombre">Nombre</label><br>
+                <input type="text" placeholder="Escribe tu nombre..." id="nombre">
+                <br><br>            
+            
+                <label for="lb_apellido">Apellido</label><br>
+                <input type="text" placeholder="Escribe tu apellido..." id="apellido">
+                <br><br>
+
+                <label for="lb_edad">Nombre</label><br>
+                <input type="number" placeholder="Escribe tu edad..." id="edad">
+                <br><br>
+
+                <input type="submit" value="Enviar" id="submit">
+            </form>
+        </div>
+
+        <div class="box dashed">
+            <div class="resultado">
+                <h3>Informacion del usuario.</h3>
+                <hr><br>
+                    <p id="dato_nombre">Nombre:<span></span></p><br>
+                    <p id="dato_apellido">Apellido:<span></span></p><br>
+                    <p id="dato_edad">Edad:<span></span></p><br>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
