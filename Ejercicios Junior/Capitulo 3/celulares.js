@@ -96,4 +96,4 @@ nokia.botonEncendido();
 document.write('<hr>');
 
 xiaomi.verInfo2();
-huawei.verInfo2();
+huawei.verInfo2(); 

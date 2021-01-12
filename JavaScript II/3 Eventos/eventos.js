@@ -30,6 +30,9 @@ window.addEventListener('load', () => { //Habilita la opcion de cargar el script
         //Click
         boton.addEventListener('click', function () {
             cambiarColor();
+            this.style.border = '10px solid black';
+            console.log(this);
+            
         });
 
         //Mouseover
