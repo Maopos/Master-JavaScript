@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    width: 80%;
+    margin:  10px auto;
+    padding: 10px;
+    background: cadetblue;
+    text-align: center;
+}
+
+#boton {
+display: flex;
+}
+
+#animar {
+    margin: auto;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.container {
+   width: 80%;
+   margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.container > div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#caja1 {
+    display: grid;
+    background: red;
+    align-items: center;
+    justify-content: center;
+}
+

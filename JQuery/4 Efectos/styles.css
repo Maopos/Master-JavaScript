@@ -1,0 +1,67 @@
+* {
+    margin: 10px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+div {
+    display: grid;
+    width: 150px;
+    height: 150px;
+       margin-top: 20px;
+    font-size: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+#caja1 {
+    background: brown;
+    color: white;
+    grid-column: 1/2;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    position: relative;
+}
+
+#caja2 {
+    background: blue;
+    color: white;
+    grid-column: 2/3;
+    align-items: center;
+    text-justify: center;
+    border: 2px solid black;
+    position: absolute;
+    left: 200px;
+    
+}
+
+#caja3 {
+    background: green;
+    color: white;
+    grid-column: 3/4;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    position: absolute;
+    left: 370px;
+}
+
+#caja4 {
+    background: rgb(60, 0, 128);
+    color: white;
+    grid-column: 4/5;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    position: absolute;
+    left: 540px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
