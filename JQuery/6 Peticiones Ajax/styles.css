@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    background: #ccc;
+    padding: 20px;
+    justify-content: center;
+}
+
+#datos1 {
+    margin: 20px auto;
+    border: 2px solid black;
+    height: 100px;
+    width: 700px;
+    background: lightcyan;
+    overflow: scroll;
+}
+
+#datos2 {
+    margin: 20px auto;
+    border: 2px solid black;
+    height: 100px;
+    width: 700px;
+    background: lightcyan;
+    overflow: scroll;
+}
