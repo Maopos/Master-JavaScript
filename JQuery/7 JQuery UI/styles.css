@@ -1,31 +1,43 @@
 * {
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
-div {
-    margin: 20px 20px;
+body {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 160px 230px;
+    grid-gap: 20px;
+
+}
+h1 {
+    grid-column: 1/5;
+}
+
+.caja{
+   
     height: 150px;
     width: 150px;
     border: 2px solid black;
-    float: left;
+    
     background: lightblue;
     cursor: pointer;
 }
 
 #box3, #box5 {
-    margin: 20px 50px;
+   
     height: 150px;
     width: 150px;
     
-    float: left;   
+      
 }
 
-li {
+.lista {
     display: flex;
     margin: 5px auto;
     border: 1px solid black;
-    padding: 20px 40px;
+    padding: 5px 40px;
     list-style: none;
     justify-content: center;
     cursor: pointer;
@@ -56,15 +68,24 @@ ol .ui-selected {background: yellow;}
     border: 2px solid black;
 }
 
-button {
-    margin-top: 50px;
-    padding: 20px 50px;
+.mostrar, #mostrar {
+   display: grid;
+   width: 155px;
+   padding: 10px;
     cursor: pointer;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 #box7 {
-    background: cornflowerblue;
+    background: cornflowerblue;    
+}
+
+#popup {
     display: none;
-    
+}
+
+#tabs {
+    grid-column: 1/5;
 }
 

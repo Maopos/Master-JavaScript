@@ -27,5 +27,23 @@ $(document).ready(function () {
       $('#mostrar').click(function () {
           $('#box7').toggle('shake', 'slow')//fade, explode, blind, slide, drop, fall, fold, puff, scale, shake
       });
-    
+
+      //tooltip
+
+      $(document).tooltip();
+
+      //Dialog -- Cuadro de dialogo
+
+      $('#dialogo').click(function () {
+        $('#popup').dialog(function () {
+              
+        });
+      })
+      
+      //Datepicker -- calendario
+      $('#calendario').datepicker();
+
+      //Tabs -- Pestañas
+
+      $('#tabs').tabs()
 });
