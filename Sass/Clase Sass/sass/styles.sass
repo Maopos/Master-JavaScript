@@ -1,0 +1,85 @@
+
+@import 'variables', 'header', 'footer', 'info'
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800)
+
+
+
+  
+
+body, ul, li
+  margin: 0 40px
+  padding: 0
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+
+#main-wrapper
+  position: relative
+  min-height: 100vh   
+
+main
+  margin: 20px 0 0
+  padding-bottom: 20px
+  h1
+    color: $color_h1
+    font-weight: 600
+    font-size: 1.5em
+
+#main-content
+  width: 80%
+  margin: auto
+
+.content
+  width: 80%
+  margin: 20px auto
+  h2, h1
+    @include titulos
+    
+  #{'&.' + $sufijo-rooms}
+    img
+      width: 100%
+    p
+      margin-bottom: 20px
+  
+  #{'&.' + $sufijo-dining}
+    border-bottom: $color_border_bottom
+    img
+      width: 45%
+      margin-right: 10%
+      display: inline-block
+      
+    p
+      width: 45%
+      display: inline-block
+
+  
+    
+
+img
+
+  @include card(#58b1b8)
+   
+    
+  &.gallery
+    width: 20%
+    border-radius: 3px
+    overflow: hidden
+    
+
+  &.big
+    display: block
+    width: 80%
+    margin: auto
+    
+  &.mid
+    display: block
+    width: 60%
+    margin: auto    
+
+  &.hidesm
+    display: none
+    
+
+form
+  @include card(#b0eaec)
+     

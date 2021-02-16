@@ -1,0 +1,39 @@
+$color_h1: blue
+$color_h2: #0e0561
+$color_border_bottom: 2px solid $color_h2
+
+$sufijo-rooms: 'rooms'
+$sufijo-dining: 'dining'
+
+$background_footer: #103d91
+
+
+ 
+
+@mixin card ($color: white)
+  border: 1px solid #3f4aad
+  padding: 10px
+  background: $color
+  box-shadow: 2px 2px 8px black
+
+@mixin titulos
+  display: block
+  color: $color_h2
+  font-weight: normal
+
+// @mixin random-block($total)
+//   @for $index from 1 through $total
+//     &:nth-child(#{$index})
+//       color: white
+//       background: rgb(random(256), random(256), random(256))
+      
+     
+  
+
+@function crearOver($color, $complementario)
+  @if($complementario)
+    @return complement($color)
+  @else 
+    @return grayscale($color)
+  
+    
