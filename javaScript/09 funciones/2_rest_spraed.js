@@ -11,4 +11,6 @@ function listadoFrutas(fruta1, fruta2, ...todas) {
 //listadoFrutas('Naranja', 'Manzana', 'Sandia', 'Pera', 'Melon', 'Coco');
 
 var frutas = ['Banano', 'Mora', 'Fresa'];
+
+
 listadoFrutas(...frutas, 'Manzana', 'Sandia', 'Pera', 'Melon', 'Coco');
